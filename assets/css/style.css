@@ -171,6 +171,9 @@ li a {
     height: 650px;
     background-color: rgba(50, 49, 49, 0.76);
     border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #car-image1 {
@@ -180,7 +183,28 @@ li a {
     background-size: cover;
     border-radius: 20px;
     background-repeat: no-repeat;
+    margin-top: 10px;
 }
 
+.car-specs {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
 
+.specs-right {
+    text-align: right;
+}
 
+.car-card > h1 {
+    text-align: center;
+    margin: 0;
+}
+
+.car-specs h4 {
+    margin: 0;
+}
+
+.car-specs p {
+    margin: 0;
+}
