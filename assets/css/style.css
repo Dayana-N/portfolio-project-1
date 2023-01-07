@@ -1,8 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+
+/* Style the header */
+
 header {
-    background-color: aqua;
+    background-color: black;
     display: flex;
     width: 100%;
     justify-content: space-between;
+    align-items: center;
+}
+
+header> a {
+    color: azure;
+    margin-left: 30px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+nav {
+    height: 100%;
 }
 
 nav ul {
@@ -11,8 +36,12 @@ nav ul {
 
 nav li {
     list-style-type: none;
+    padding-right: 20px;
 }
 
 li a {
     text-decoration: none;
+    margin: 0 10px;
+    font-size: 24px;
+    color: azure;
 }
