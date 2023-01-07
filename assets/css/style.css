@@ -83,8 +83,25 @@ li a {
 
 .about-section h1 {
     margin: 0;
-    padding-top: 20px;
+    padding: 20px;
     font-size: 3em;
     text-align: center;
 }
 
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.about-container img {
+    height: 350px;
+    width: 600px;
+}
+
+.about-text {
+    width: 33%;
+    margin-left: 40px;
+    text-align: center;
+}
