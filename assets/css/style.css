@@ -123,4 +123,17 @@ li a {
     height: 60%;
     width: 70%;
     background-color: rgba(0, 0, 0, 0.555);
+    color: azure;
+    display: flex;
+}
+
+.circuit-text {
+
+}
+
+.circuit-img {
+    background-image: url('../images/trackwhite.png');
+    height: 245.5px;
+    width: 650px;
+    background-size: cover;
 }
