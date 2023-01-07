@@ -20,7 +20,7 @@ header {
     align-items: center;
 }
 
-header> a {
+header>a {
     color: azure;
     margin-left: 30px;
     text-decoration: none;
@@ -57,7 +57,6 @@ li a {
     background-repeat: no-repeat;
     display: flex;
     align-items: flex-end;
-
 }
 
 .hero-div {
@@ -65,7 +64,7 @@ li a {
     width: 250px;
     background-color: rgba(255, 0, 0, 0.463);
     margin: 80px;
-    color:azure;
+    color: azure;
     text-align: center;
     border-radius: 20px;
 }
@@ -73,3 +72,19 @@ li a {
 .hero-div p {
     font-size: 22.5px;
 }
+
+/* About section */
+
+.about-section {
+    background-color: black;
+    height: 600px;
+    color: azure;
+}
+
+.about-section h1 {
+    margin: 0;
+    padding-top: 20px;
+    font-size: 3em;
+    text-align: center;
+}
+
