@@ -1,0 +1,18 @@
+header {
+    background-color: aqua;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+}
