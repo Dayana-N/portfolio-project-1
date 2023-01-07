@@ -125,9 +125,15 @@ li a {
     background-color: rgba(0, 0, 0, 0.555);
     color: azure;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
 }
 
 .circuit-text {
+    width: 33%;
+    text-align: center;
+    margin-right: 60px;
 
 }
 
@@ -136,4 +142,9 @@ li a {
     height: 245.5px;
     width: 650px;
     background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.circuit-text h1 {
+    font-size: 3em;
 }
