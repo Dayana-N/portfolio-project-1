@@ -113,4 +113,14 @@ li a {
     height: 700px;
     width: 100%;
     background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circuit-container {
+    height: 60%;
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0.555);
 }
