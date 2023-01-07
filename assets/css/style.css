@@ -148,3 +148,39 @@ li a {
 .circuit-text h1 {
     font-size: 3em;
 }
+
+/* Cars section */
+.cars-section {
+    background-color: black;
+    height: 700px;
+    color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cars-container {
+    background-color: rgb(210, 210, 48);
+    width: 80%;
+}
+
+/* Car card */
+
+.car-card {
+    width: 355px;
+    height: 650px;
+    background-color: rgba(50, 49, 49, 0.76);
+    border-radius: 15px;
+}
+
+#car-image1 {
+    background-image: url('../images/bugatti-png.png');
+    height: 291px;
+    width: 291px;
+    background-size: cover;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+}
+
+
+
