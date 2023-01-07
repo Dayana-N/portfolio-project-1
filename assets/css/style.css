@@ -45,3 +45,14 @@ li a {
     font-size: 24px;
     color: azure;
 }
+
+/* Hero section */
+
+.hero-image {
+    background-image: url('../images/hero-image.jpg');
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
