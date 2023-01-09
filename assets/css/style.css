@@ -6,7 +6,9 @@ body {
     border: 0;
     box-sizing: border-box;
     font-family: 'Kanit', sans-serif;
+    color: azure;
 }
+
 
 
 /* Style the header */
@@ -249,4 +251,21 @@ li a {
     border-radius: 20px;
     height: 90%;
     width: 60%;
+    margin-left: 30px;
+    padding: 20px 50px;
 }
+
+/* Form */
+
+.form-input {
+    background: transparent;
+    border: 1px solid azure;
+    color: azure;
+    border-radius: 5px;
+}
+
+.form p {
+    margin: 0;
+}
+
+
