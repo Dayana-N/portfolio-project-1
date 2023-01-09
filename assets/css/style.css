@@ -176,6 +176,17 @@ li a {
     align-items: center;
 }
 
+.price-div {
+    background-color: #b0212b;
+    border-radius: 15px;
+    padding: 10px;
+    align-self: flex-end;
+}
+
+.price-div p {
+    margin: 0;
+}
+
 #car-image1 {
     background-image: url('../images/bugatti-png.png');
     height: 291px;
@@ -203,6 +214,7 @@ li a {
 
 .car-specs h4 {
     margin: 0;
+    padding-top: 20px;
 }
 
 .car-specs p {
@@ -216,4 +228,5 @@ li a {
     padding: 10px;
     border-radius: 15px;
     font-weight: 500;
+    margin: 20px 0;
 }
