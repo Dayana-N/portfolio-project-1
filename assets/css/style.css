@@ -208,3 +208,12 @@ li a {
 .car-specs p {
     margin: 0;
 }
+
+.btn-book {
+    text-decoration: none;
+    color: azure;
+    background-color: #b0212b;
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: 500;
+}
