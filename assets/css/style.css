@@ -243,3 +243,10 @@ li a {
     background-size: cover;
     background-repeat: no-repeat; 
 }
+
+.form-div {
+    background-color: rgba(0, 0, 0, 0.632);
+    border-radius: 20px;
+    height: 90%;
+    width: 60%;
+}
