@@ -173,7 +173,38 @@
                     <h2>Contact Us</h2>
                     <p>Please fill in the form below for booking and enquiries.</p>
                     <br>
-                    
+                    <label for="name">Full Name:</label>
+                    <br>
+                    <input type="text" class="form-input" id="name" name="name" required>
+                    <br>
+                    <label for="email">Email:</label>
+                    <br>
+                    <input type="email" class="form-input" id="email" name="email" required>
+                    <br>
+                    <label for="date">Select a date:</label>
+                    <br>
+                    <input type="date" name="date" id="date" class="form-input">
+                    <br>
+                    <fieldset>
+                        <legend>Select Experiences</legend>
+                        <input type="checkbox" name="car" id="bugatti" value="bugatti">
+                        <label for="bugatti">Bugatti Chiron</label>
+                        <input type="checkbox" name="car" id="bugatti2" value="bugatti2">
+                        <label for="bugatti2">Bugatti Chiron 2</label>
+                        <input type="checkbox" name="car" id="bugatti3" value="bugatti3">
+                        <label for="bugatti3">Bugatti Chiron 3</label>
+                    </fieldset>
+                    <label for="message">Message</label>
+                    <br>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter Your Message Here:"></textarea>
+                    <br>
+                    <p>Do you hold a full EU driver's license?</p>
+                    <input type="radio" name="license" id="license-yes" value="yes">
+                    <label for="license-yes">Yes</label>
+                    <input type="radio" name="license" id="license-no" value="no">
+                    <label for="license-no">No</label>
+                    <br>
+                    <input type="submit" value="Send">
 
                 </form>
             </div>
