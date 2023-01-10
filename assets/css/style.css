@@ -244,13 +244,13 @@ li a {
     height: 800px;
     background-size: cover;
     background-repeat: no-repeat; 
+    display: flex;
+    align-items: center;
 }
 
 .form-div {
     background-color: rgba(0, 0, 0, 0.632);
     border-radius: 20px;
-    height: 90%;
-    width: 60%;
     margin-left: 30px;
     padding: 20px 50px;
 }
@@ -264,8 +264,23 @@ li a {
     border-radius: 5px;
 }
 
-.form p {
+.form h1,p {
     margin: 0;
+    padding: 0;
 }
 
+fieldset {
+    border-radius: 5px;
+    margin: 10px 0;
+    display: inline-block;
+    width: 288px;
+  }
 
+  #submit-btn {
+    background-color: #b0212b;
+    color: azure;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    margin-top: 10px;
+  }
