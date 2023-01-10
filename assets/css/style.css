@@ -212,7 +212,7 @@ li a {
     text-align: right;
 }
 
-.car-card > h1 {
+.car-card>h1 {
     text-align: center;
     margin: 0;
 }
@@ -243,7 +243,7 @@ li a {
     width: 100%;
     height: 800px;
     background-size: cover;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     display: flex;
     align-items: center;
 }
@@ -264,7 +264,8 @@ li a {
     border-radius: 5px;
 }
 
-.form h1,p {
+.form h1,
+p {
     margin: 0;
     padding: 0;
 }
@@ -274,13 +275,19 @@ fieldset {
     margin: 10px 0;
     display: inline-block;
     width: 288px;
-  }
+}
 
-  #submit-btn {
+#submit-btn {
     background-color: #b0212b;
     color: azure;
     border: none;
     border-radius: 5px;
     padding: 8px;
     margin-top: 10px;
+}
+
+/* change calendar icon color on date input field */
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+    margin: 0px;
   }
