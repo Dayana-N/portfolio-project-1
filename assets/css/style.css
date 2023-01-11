@@ -310,6 +310,10 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
   }
 
+  .footer-contact h3 {
+    margin: 0;
+  }
+
   /* Footer social media links */
   .footer-social {
     display: flex;
@@ -327,13 +331,39 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     padding: 10px;
   }
 
+  .fa-twitter:hover, .fa-facebook:hover {
+    color: rgb(79, 141, 241);
+  }
+
+  .fa-youtube:hover {
+    color: #b0212b;
+  }
+
   /* Partners section */
   .partners-fieldset {
     display: flex;
+    border-color: transparent;
+    text-align: center;
+    border-top: 1px solid azure;
+    margin-top: 20px;
   }
 
   .partners {
     height: 150px;
     width: 150px;
   }
+
+  .partners-fieldset img {
+    filter: grayscale(100%);
+  }
+
+  .partners-fieldset img:hover {
+    filter: grayscale(0%);
+  }
+  
+
+  .footer-partners fieldset legend {
+    font-size: 30px;
+  }
+
 
