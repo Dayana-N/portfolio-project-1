@@ -94,11 +94,12 @@ li a {
 
 .about-section {
     background-color: black;
-    height: 600px;
+    height: auto;
     color: azure;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 80px;
 }
 
 .about-section h1 {
@@ -112,17 +113,21 @@ li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 400px;
     width: 80%;
+    flex-wrap: wrap;
 }
 
-.about-container img {
+.about-image {
+    background-image: url('../images/porsche1.jpg');
+    width: 600px;
     height: 350px;
-    max-width: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .about-text {
-    width: 33%;
+    width: 40%;
     margin-left: 40px;
     text-align: center;
 }
