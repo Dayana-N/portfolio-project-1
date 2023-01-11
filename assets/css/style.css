@@ -70,8 +70,10 @@ li a {
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
     display: flex;
     align-items: flex-end;
+    background-attachment: fixed;
 }
 
 .hero-div {
@@ -136,6 +138,7 @@ li a {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-attachment: fixed;
 }
 
 .circuit-container {
@@ -264,6 +267,7 @@ li a {
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
+    background-attachment: fixed;
 }
 
 .form-div {
