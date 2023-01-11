@@ -21,7 +21,7 @@ header {
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
+    position: sticky;
     flex-wrap: wrap;
 }
 
@@ -29,10 +29,11 @@ header>a {
     color: azure;
     margin-left: 30px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 15px;
     border: 1px solid azure;
     padding: 4px 7px;
     margin-bottom: 4px;
+    overflow: hidden;
 }
 
 nav {
@@ -47,12 +48,12 @@ nav ul {
 
 nav li {
     list-style-type: none;
-    padding-right: 20px;
+    /* padding-right: 20px; */
 }
 
 nav li a:hover {
     color: #b0212b;
-    border-bottom: 1px solid #b0212b;
+    border-bottom: 3px solid #b0212b;
 }
 
 li a {
@@ -77,8 +78,8 @@ li a {
 }
 
 .hero-div {
-    height: 250px;
-    width: 250px;
+    /* height: 250px; */
+    max-width: 250px;
     background-color: rgba(255, 0, 0, 0.463);
     margin: 80px;
     color: azure;
@@ -301,7 +302,7 @@ fieldset {
     border-radius: 5px;
     margin: 10px 0;
     display: inline-block;
-    width: 288px;
+    width: 60%;
 }
 
 #submit-btn {
@@ -392,4 +393,56 @@ footer {
 
 .footer-partners fieldset legend {
     font-size: 30px;
+}
+
+/* Footer map iframe to stop overflow */
+.footer-map iframe {
+    max-width: 100%;
+}
+
+small a {
+    text-decoration: none;
+    color: azure;
+}
+
+
+
+@media (max-width: 600px) {
+header {
+    flex-direction: column;
+    justify-content: center;
+}
+
+header > a {
+    margin: 0;
+}
+
+ nav li a {
+        font-size: 16px;
+    }
+
+nav ul {
+    padding: 0;
+}
+/* Hero Section */
+.hero-image {
+    background-size: 110%;
+    height: 300px;
+    background-position:top 60px left 0px;
+    align-items: center;
+    display: flex;
+}
+
+.hero-div{
+    margin: 0 0 0 10px;
+    width: 180px;
+}
+.hero-div p {
+    font-size: 16px;
+    margin: 0;
+}
+.hero-div h2 {
+    font-size: 18px;
+    margin: 0;
+}
 }
