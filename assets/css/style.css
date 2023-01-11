@@ -296,5 +296,15 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   footer {
     background-color: black;
     width: 100%;
-    height: 400px;
   }
+
+  /* Partners section */
+  .partners-fieldset {
+    display: flex;
+  }
+
+  .partners {
+    height: 150px;
+    width: 150px;
+  }
+
