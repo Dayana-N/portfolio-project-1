@@ -65,7 +65,7 @@ li a {
 /* Hero section */
 
 .hero-image {
-    background-image: url('../images/hero-image.jpg');
+    background-image: url('../images/hero-image.png');
     height: 600px;
     width: 100%;
     background-size: cover;
@@ -98,12 +98,12 @@ li a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 80px;
+    padding: 80px 0;
 }
 
 .about-section h1 {
-    margin: 0;
-    padding: 20px;
+    margin: 0 0 65px 0;
+    /* padding-bottom: 60px; */
     font-size: 3em;
     text-align: center;
 }
@@ -151,7 +151,7 @@ li a {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0 0 20px 20px;
+    padding: 30px 0 50px 0;;
 }
 
 .circuit-text {
@@ -164,7 +164,7 @@ li a {
 .circuit-img {
     background-image: url('../images/trackwhite.png');
     height: 150px;
-    width: 60%;
+    width: 50%;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -172,6 +172,7 @@ li a {
 
 .circuit-text h1 {
     font-size: 3em;
+    margin-bottom: 20px;
 }
 
 /* Cars section */
