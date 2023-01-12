@@ -447,7 +447,7 @@ nav ul {
 .about-section h1 {
     font-size: 25px;
     padding: 5px;
-    margin: 0 30px;
+    margin: 10px 30px;
 }
 
 .about-container {
@@ -464,6 +464,7 @@ nav ul {
 
 .about-text {
     width: 90%;
+    margin: 0;
 }
 
 .about-text h2 {
