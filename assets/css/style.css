@@ -48,7 +48,6 @@ nav ul {
 
 nav li {
     list-style-type: none;
-    /* padding-right: 20px; */
 }
 
 nav li a:hover {
@@ -78,7 +77,6 @@ li a {
 }
 
 .hero-div {
-    /* height: 250px; */
     max-width: 250px;
     background-color: rgba(255, 0, 0, 0.463);
     margin: 80px;
@@ -147,14 +145,13 @@ li a {
 }
 
 .circuit-container {
-    height: 60%;
     width: 70%;
     background-color: rgba(0, 0, 0, 0.555);
     color: azure;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding: 0 0 20px 20px;
 }
 
 .circuit-text {
@@ -166,9 +163,10 @@ li a {
 
 .circuit-img {
     background-image: url('../images/trackwhite.png');
-    height: 245.5px;
-    width: 650px;
-    background-size: cover;
+    height: 150px;
+    width: 60%;
+    background-size: contain;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -472,5 +470,44 @@ nav ul {
     font-size: 20px;
 }
 
+/* Circuit */
+
+.circuit-container {
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+}
+
+.circuit-text {
+    width: 90%;
+    margin: 0;
+}
+
+/* Form */
+
+.contact-img {
+    background-position: right;
+}
+
+.form-div {
+    width: 85%;
+    margin-left: 5px;
+    overflow: hidden;
+}
+
+/* Footer */
+
+.partners-fieldset img {
+width: 80px;
+height: 80px;
+}
+.footer-div {
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+}
+.footer-contact, .footer-social, small {
+    margin-bottom: 50px;
+}
 
 }
