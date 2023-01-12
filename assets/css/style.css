@@ -128,8 +128,8 @@ li a {
 
 /* The Circuit section */
 
-.circuit-main-image {
-    background-image: url('../images/racetrack.jpg');
+.circuit-background {
+    background-image: url('../images/racetrack.png');
     height: 700px;
     width: 100%;
     background-size: cover;
@@ -139,6 +139,8 @@ li a {
     align-items: center;
     background-attachment: fixed;
 }
+
+
 
 .circuit-container {
     width: 70%;
