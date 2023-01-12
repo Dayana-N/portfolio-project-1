@@ -115,13 +115,9 @@ li a {
     width: 90%;
 }
 
-.about-image {
-    background-image: url('../images/porsche1.jpg');
-    width: 600px;
+.about-image img {
     height: 350px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    width: 600px;
 }
 
 .about-text {
