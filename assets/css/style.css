@@ -173,29 +173,30 @@ li a {
     margin-bottom: 20px;
 }
 
-/* Cars section */
-.cars-section {
-    background-color: black;
-    height: auto;
-    color: azure;
+/* Experiences section */
+.experiences-container {
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
 
-.cars-container {
-    background-color: black;
+.experiences-flex {
     width: 80%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
+.exp-section > h1 {
+    text-align: center;
+    font-size: 3em;
+    margin: 20px 0;
+}
+
 /* Car card */
 
 .car-card {
     width: 355px;
-    height: 650px;
     background-color: rgba(50, 49, 49, 0.76);
     border-radius: 15px;
     display: flex;
@@ -203,7 +204,7 @@ li a {
     align-items: center;
     margin: 20px;
 }
-
+/* Container with price */
 .price-div {
     background-color: #b0212b;
     border-radius: 15px;
@@ -215,7 +216,11 @@ li a {
     margin: 0;
 }
 
-#car-image1 {
+.car-card>h1 {
+    text-align: center;
+    margin: 0;
+}
+/* #car-image-1 {
     background-image: url('../images/bugatti-png.png');
     height: 291px;
     width: 291px;
@@ -223,8 +228,20 @@ li a {
     border-radius: 20px;
     background-repeat: no-repeat;
     margin-top: 10px;
+} */
+
+/* Card image */
+.car-image {
+    width: 291px;
+    height: 291px;
 }
 
+.car-image img {
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+/* Card specifications */
 .car-specs {
     display: flex;
     width: 80%;
@@ -235,10 +252,7 @@ li a {
     text-align: right;
 }
 
-.car-card>h1 {
-    text-align: center;
-    margin: 0;
-}
+
 
 .car-specs h4 {
     margin: 0;
@@ -249,14 +263,23 @@ li a {
     margin: 0;
 }
 
+
+/* Card button book now */
 .btn-book {
     text-decoration: none;
     color: azure;
     background-color: #b0212b;
     padding: 10px;
     border-radius: 15px;
-    font-weight: 500;
+    font-weight: 600;
     margin: 20px 0;
+}
+/* Button hover effect */
+.btn-book:hover {
+    background-color: #f13f4a;
+    color: azure;
+    scale: 1.1;
+    transition: 0.3s;
 }
 
 /* Contact section */
