@@ -394,32 +394,52 @@ footer {
 }
 
 /* Partners section */
-.partners-fieldset {
+
+.footer-partners {
+    width: 100%;
     display: flex;
-    border-color: transparent;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-partners p {
     text-align: center;
-    border-top: 1px solid azure;
-    margin-top: 20px;
+    font-weight: 500;
+    font-size: 36px;
+    border-bottom: 1px solid azure;
+    margin: 30px 0;
 }
 
-.partners {
-    height: 150px;
-    width: 150px;
+.logo-container {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.partners-fieldset img {
+.logo-container img {
     filter: grayscale(100%);
 }
 
-.partners-fieldset img:hover {
+.logo-container img:hover {
     filter: grayscale(0%);
+    cursor: pointer;
 }
 
-
-.footer-partners fieldset legend {
-    font-size: 30px;
+#bugatti-logo {
+    width: 150px;
+    height: 77px;
 }
 
+#ferrari-logo {
+    height: 140px;
+    width: 87.73;
+}
+
+#mclaren-logo {
+    height: 39px;
+    width: 204;
+}
 /* Footer map iframe to stop overflow */
 .footer-map iframe {
     max-width: 100%;
