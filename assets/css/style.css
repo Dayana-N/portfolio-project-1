@@ -68,7 +68,7 @@ li a {
 /* Hero section */
 
 .hero-image {
-    background-image: url('../images/hero-image.png');
+    background-image: url('../images/hero-image.webp');
     height: 600px;
     width: 100%;
     background-size: cover;
@@ -123,7 +123,7 @@ li a {
 }
 
 .about-image img {
-    width: 90%;
+    width: 100%;
 }
 
 .about-text {
@@ -135,7 +135,7 @@ li a {
 /* The Circuit section */
 
 .circuit-background {
-    background-image: url('../images/racetrack.png');
+    background-image: url('../images/racetrack.webp');
     height: 700px;
     width: 100%;
     background-size: cover;
@@ -291,7 +291,7 @@ li a {
 /* Contact section */
 
 .contact-img {
-    background-image: url(../images/three-cars.jpg);
+    background-image: url(../images/three-cars.webp);
     width: 100%;
     height: 800px;
     background-size: cover;
