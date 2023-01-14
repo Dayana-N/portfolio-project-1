@@ -128,7 +128,8 @@ li a {
 }
 
 .about-image img {
-    width: 100%;
+    width: 90%;
+    height: auto;
 }
 
 .about-text {
@@ -192,7 +193,7 @@ li a {
 }
 
 .experiences-flex {
-    width: 80%;
+    width: 90%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -226,6 +227,7 @@ li a {
 
 .price-div p {
     margin: 0;
+    font-weight: 500;
 }
 
 .car-card>h1 {
