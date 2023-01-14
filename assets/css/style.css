@@ -51,6 +51,7 @@ nav {
     height: 100%;
     overflow: hidden;
     width: auto;
+    margin-right: 20px;
 }
 
 nav ul {
@@ -511,6 +512,9 @@ small a {
     padding-bottom: 20px;
     border-radius: 20px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 #container h1 {
     font-size: 30px;
@@ -524,14 +528,21 @@ small a {
     margin-bottom: 20px;
 }
 
-#go-back {
+.go-back {
     text-decoration: none;
     color: azure;
     background-color: #b0212b;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 16px;
-    padding: 6px;
+    padding: 10px;
     border-radius: 15px;
+}
+
+.go-back:hover {
+    background-color: #f13f4a;
+    display: inline-block;
+    transform: scale(1.1);
+
 }
 
 /* Media queries  */
@@ -571,8 +582,8 @@ small a {
     }
 }
 
-    /* For screens with width less than 720px */
-    @media (max-width: 720px) {
+    /* For screens with width less than 740px */
+    @media (max-width: 740px) {
 
         /* Header */
         header {
