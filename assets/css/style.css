@@ -487,6 +487,52 @@ small a {
     color: azure;
 }
 
+/* Thank you page */
+
+.thank-you-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#background {
+    background-image: url('../images/ferrari-front.webp');
+    width: 90%;
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    background-color: rgba(0, 0, 0, 0.888);
+    width: 500px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+#container h1 {
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+#container p {
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+#go-back {
+    text-decoration: none;
+    color: azure;
+    background-color: #b0212b;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 6px;
+    border-radius: 15px;
+}
 
 /* Media queries  */
 
@@ -497,7 +543,7 @@ small a {
     .hero-image {
         background-size: 110%;
         height: 400px;
-        background-position: top 60px left 0px;
+        background-position: top 0 left 60px;
         align-items: flex-end;
         display: flex;
     }
@@ -523,6 +569,7 @@ small a {
         font-size: 30px;
         letter-spacing: 1px;
     }
+}
 
     /* For screens with width less than 720px */
     @media (max-width: 720px) {
@@ -666,4 +713,3 @@ small a {
             margin: 5px;
         }
     }
-    
