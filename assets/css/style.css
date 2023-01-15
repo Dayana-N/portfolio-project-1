@@ -233,6 +233,11 @@ li a {
     margin: 20px;
 }
 
+.car-card:hover {
+    box-shadow: 6px 5px 14px 0px #ff4c5880;
+    border: solid 1px #ff4c5880;
+}
+
 /* Container with price */
 .price-div {
     background-color: #b0212b;
