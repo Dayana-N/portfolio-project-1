@@ -70,7 +70,7 @@ nav li a:hover {
 li a {
     text-decoration: none;
     margin: 0 10px;
-    font-size: 20px;
+    font-size: 1.5vw;
     color: azure;
     font-weight: 600;
     letter-spacing: 1px;
@@ -149,6 +149,7 @@ li a {
     margin-left: 40px;
     text-align: center;
 }
+
 
 /* The Circuit section */
 
@@ -495,6 +496,7 @@ small a {
     align-items: center;
     justify-content: center;
 }
+
 #background {
     background-image: url('../images/ferrari-front.webp');
     width: 90%;
@@ -516,6 +518,7 @@ small a {
     flex-direction: column;
     align-items: center;
 }
+
 #container h1 {
     font-size: 30px;
     letter-spacing: 2px;
@@ -554,7 +557,7 @@ small a {
     .hero-image {
         background-size: 110%;
         height: 400px;
-        background-position: top 0 left 60px;
+        background-position: top 60px left 0;
         align-items: flex-end;
         display: flex;
     }
@@ -575,152 +578,150 @@ small a {
         letter-spacing: normal;
     }
 
-    /* About Section */
+     /* About Section */
+     .about-section {
+        padding-top: 10px;
+    }
+
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
     .about-section h1 {
-        font-size: 30px;
-        letter-spacing: 1px;
+        font-size: 25px;
+        padding: 25px 20px;
+        margin: 10px 0;
+    }
+
+    .about-image {
+        width: 80%;
+    }
+
+    .about-image img {
+        width: 100%;
+        height: 250%;
+    }
+
+    .about-text {
+        width: 90%;
+        margin: 0;
+    }
+
+    .about-text h2 {
+        font-size: 23px;
+    }
+
+    /* Circuit */
+
+    .circuit-container {
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 30px;
+        width: 90%;
+    }
+
+    .circuit-text {
+        width: 90%;
+        margin: 0;
+    }
+
+    .circuit-img {
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    .circuit-text h2 {
+        font-size: 4vw;
     }
 }
 
-    /* For screens with width less than 740px */
-    @media (max-width: 740px) {
+/* For screens with width less than 740px */
+@media (max-width: 740px) {
 
-        /* Header */
-        header {
-            flex-direction: column;
-            justify-content: center;
-        }
-
-        header>a {
-            margin: 0;
-        }
-
-        nav {
-            width: 100%;
-        }
-
-        ul {
-            display: flex;
-            justify-content: space-around;
-        }
-
-        nav li a {
-            font-size: 17px;
-            letter-spacing: 1px;
-            font-weight: 600;
-        }
-
-        nav ul {
-            padding: 0;
-        }
-
-        /* Circuit */
-
-        .circuit-container {
-            flex-direction: column;
-            justify-content: center;
-            padding: 0;
-            width: 90%;
-        }
-
-        .circuit-text {
-            width: 90%;
-            margin: 0;
-        }
-
-        .circuit-img {
-            width: 80%;
-            margin-top: 20px;
-        }
-
-        /* Footer */
-        .footer-div {
-            flex-direction: column;
-            align-items: center;
-            width: 90%;
-        }
-
-        .footer-contact {
-            margin: 30px;
-        }
-
-        .logo-container img {
-            margin-top: 20px;
-        }
-
-        .footer-contact {
-            order: 1;
-        }
-
-        .footer-social {
-            order: 3;
-        }
-
-        .footer-map {
-            order: 2;
-        }
+    /* Header */
+    header {
+        flex-direction: column;
+        justify-content: center;
     }
 
-
-    /* For screens with width less than 600px */
-    @media (max-width: 600px) {
-
-        /* About Section */
-
-        .about-section {
-            padding-top: 10px;
-        }
-
-        .about-container {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-
-        .about-section h1 {
-            font-size: 25px;
-            padding: 25px 20px;
-            margin: 10px 0;
-        }
-
-        .about-image {
-            width: 100%;
-        }
-
-        .about-image img {
-            width: 100%;
-            height: 250%;
-        }
-
-        .about-text {
-            width: 90%;
-            margin: 0;
-        }
-
-        .about-text h2 {
-            font-size: 23px;
-        }
-
-        /* Form */
-
-        .contact-img {
-            background-position: right;
-        }
-
-        .form-div {
-            width: 90%;
-            margin-left: 13px;
-            overflow: hidden;
-            padding: 37px 5px 10px 5px;
-        }
-
+    header>a {
+        margin: 0;
     }
 
-    /* For screen with width under 420px */
-
-    @media (max-width: 420px) {
-        nav li a {
-            font-size: 13px;
-            margin: 5px;
-        }
+    nav {
+        width: 100%;
     }
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    nav li a {
+        font-size: 17px;
+        letter-spacing: 1px;
+        font-weight: 600;
+    }
+
+    nav ul {
+        padding: 0;
+    }
+
+    /* Footer */
+    .footer-div {
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+
+    .footer-contact {
+        margin: 30px;
+    }
+
+    .logo-container img {
+        margin-top: 20px;
+    }
+
+    .footer-contact {
+        order: 1;
+    }
+
+    .footer-social {
+        order: 3;
+    }
+
+    .footer-map {
+        order: 2;
+    }
+}
+
+
+/* For screens with width less than 600px */
+@media (max-width: 600px) {
+
+   
+    /* Form */
+
+    .contact-img {
+        background-position: right;
+    }
+
+    .form-div {
+        width: 90%;
+        margin-left: 13px;
+        overflow: hidden;
+        padding: 37px 5px 10px 5px;
+    }
+
+}
+
+/* For screen with width under 420px */
+
+@media (max-width: 420px) {
+    nav li a {
+        font-size: 13px;
+        margin: 5px;
+    }
+}
