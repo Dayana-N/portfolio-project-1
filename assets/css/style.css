@@ -41,7 +41,7 @@ header>a {
     margin-left: 30px;
     text-decoration: none;
     font-size: 15px;
-    border: 1px solid azure;
+    border: 1px solid #f0ffff;
     padding: 4px 7px;
     margin-bottom: 4px;
     overflow: hidden;
@@ -234,8 +234,8 @@ li a {
 }
 
 .car-card:hover {
-    box-shadow: 6px 5px 14px 0px #ff4c5880;
-    border: solid 1px #ff4c5880;
+    box-shadow: 6px 5px 14px 0px hsla(356, 100%, 65%, 0.502);
+    border: solid 1px hsla(356, 100%, 65%, 0.502);
 }
 
 /* Container with price */
