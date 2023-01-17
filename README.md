@@ -26,6 +26,11 @@ The fonts used are from [Google Fonts](https://fonts.google.com/specimen/Kanit?q
 ### Images
 The images used are from various sources which are linked in the credits section. The images were compressed to improve the performance of the website. 
 ### Wireframes
+This website was design as scroll website with fixed navigation to help the user navigate easily through the website.
+The initial idea for the experience cards was to have them with horizontal layout however due to the fact that the flow of information in the previous two sections was horizontal, decision was made for the cards to be vertical to break this pattern.
+
+![wireframes of desktop version](./assets/images/readme-images/balsamiq-page1.PNG)
+![wireframes of mobile version](./assets/images/readme-images/balsamiq-page-mobile.PNG)
 
 ### Mockups
 After the initial planning of the structure of the website, mockups were created on different sections of the website using Photoshop.
@@ -38,7 +43,7 @@ The Circuit section was designed by using background image followed by transpare
 ![Circuit mock up design](./assets/images/readme-images/racetrack-mockup.PNG)
 
 #### Experiences
-The experiences section was also designed visually in Photoshop first.
+The experiences section was also designed visually in Photoshop first with improved layout.
 ![Experiences mock up design](./assets/images/readme-images/carcard-mockup.PNG)
 #### Footer
 Mockup of the Footer.
