@@ -136,7 +136,7 @@ li a {
 }
 
 .about-image {
-    width: 50%;
+    width: 40%;
 }
 
 .about-image img {
@@ -600,7 +600,8 @@ small a {
     }
 
     .about-image {
-        width: 80%;
+        width: 60%;
+        height: auto;
     }
 
     .about-image img {
