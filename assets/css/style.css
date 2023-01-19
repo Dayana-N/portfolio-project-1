@@ -233,8 +233,8 @@ li a {
 }
 
 .car-card:hover {
-    box-shadow: 6px 5px 14px 0px hsla(356, 100%, 65%, 0.502);
-    border: solid 1px hsla(356, 100%, 65%, 0.502);
+    box-shadow: 8px 8px 20px 1px hsl(356deg 41% 95% / 50%);
+    border: solid 1px hsl(356deg 8% 78% / 50%);
 }
 
 /* Container with price */
