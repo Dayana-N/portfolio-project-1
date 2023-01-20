@@ -305,7 +305,7 @@ li a {
 .btn-book:hover {
     background-color: #f13f4a;
     color: azure;
-    scale: 1.1;
+    transform: scale(1.1);
     transition: 0.3s;
 }
 
@@ -370,7 +370,7 @@ p {
 #submit-btn:hover {
     background-color: #f13f4a;
     color: azure;
-    scale: 1.1;
+    transform: scale(1.1);
     transition: 0.3s;
     cursor: pointer;
 }
@@ -475,12 +475,12 @@ footer {
 
 #ferrari-logo {
     height: 140px;
-    width: 87.73;
+    width: 87.73px;
 }
 
 #mclaren-logo {
     height: 39px;
-    width: 204;
+    width: 204px;
 }
 
 /* Footer map iframe to stop overflow */
@@ -521,6 +521,8 @@ small a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-shadow: 8px 8px 20px 1px hsl(356deg 41% 95% / 50%);
+   
 }
 
 #container h1 {
