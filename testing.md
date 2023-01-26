@@ -39,13 +39,15 @@ Document checking completed. No errors or warnings to show.
 - All pages besides 404.html <br>
 Congratulations! No Error Found.
 ![CSS Validator](./assets/images/testing/css-validator-index.PNG)
+
   - One warning found. 
-  ![CSS Warning](./assets/images/testing/css-warning.PNG)
+  ![CSS Warning](./assets/images/testing/css-warning.PNG) <br>
   This line of code was used to select and change the colour of the calendar picker icon in the date input field. This warning does not affect the performance of the element that it is connected to.
 ### Result - Pass
 - 404 Page <br>
 Congratulations! No Error Found.
 ![CSS Validator](./assets/images/testing/css-validator-404.PNG)
+
 Internal CSS was used on the 404.html page to prevent any potential errors.
 ### Result - Pass
 ### Google Lighthouse
@@ -72,7 +74,7 @@ Internal CSS was used on the 404.html page to prevent any potential errors.
 - 404.html Desktop <br>
   ![Lighthouse Mobile](./assets/images/testing/lighthouse-404-desktop.PNG)
 
-- Warning <br>
+- Warning on all pages<br>
 This warning appears due to the fact that GitHub hosted pages disable FLoC, which is Google's 3rd party cookie alternative. - Source [Stackoverflow](https://stackoverflow.com/questions/69619035/error-with-permissions-policy-header-unrecognized-feature-interest-cohort) and [GithubBlog](https://github.blog/changelog/2021-04-27-github-pages-permissions-policy-interest-cohort-header-added-to-all-pages-sites/) <br>
 ![Lighthouse Warning](./assets/images/testing/lighthouse-mobile-index-warning.PNG)
 
