@@ -52,37 +52,28 @@ Internal CSS was used on the 404.html page to prevent any potential errors.
 #### The Google Lighthouse test was performed in incognito mode to prevent any add-ons interfering with the results.
 - index.html Mobile <br>
 ![Lighthouse Mobile](./assets/images/testing/lighthouse-mobile-index.PNG)
-   - Warning <br>
-  This warning appears due to the fact that GitHub hosted pages disable FLoC, which is Google's 3rd party cookie alternative. - Source [Stackoverflow](https://stackoverflow.com/questions/69619035/error-with-permissions-policy-header-unrecognized-feature-interest-cohort) <br>
-  ![Lighthouse Warning](./assets/images/testing/lighthouse-mobile-index-warning.PNG)
 
 - index.html Desktop <br>
 ![Lighthouse Desktop](./assets/images/testing/lighthouse-desktop-index.PNG)
-   - Warning <br>
-  This warning appears due to the fact that GitHub hosted pages disable FLoC, which is Google's 3rd party cookie alternative. - Source [Stackoverflow](https://stackoverflow.com/questions/69619035/error-with-permissions-policy-header-unrecognized-feature-interest-cohort) <br>
-  ![Lighthouse Warning](./assets/images/testing/lighthouse-mobile-index-warning.PNG)
+
   ### Result - Pass
 
 - thank-you.html Mobile <br>
   ![Lighthouse Mobile](./assets/images/testing/lighthouse-thankyou-mobile.PNG)
-   - Warning <br>
-  This warning appears due to the fact that GitHub hosted pages disable FLoC, which is Google's 3rd party cookie alternative. - Source [Stackoverflow](https://stackoverflow.com/questions/69619035/error-with-permissions-policy-header-unrecognized-feature-interest-cohort) <br>
-  ![Lighthouse Warning](./assets/images/testing/lighthouse-mobile-index-warning.PNG)
 
 - thank-you.html Desktop <br>
   ![Lighthouse Mobile](./assets/images/testing/lighthouse-thankyou-desktop.PNG)
-   - Warning <br>
-  This warning appears due to the fact that GitHub hosted pages disable FLoC, which is Google's 3rd party cookie alternative. - Source [Stackoverflow](https://stackoverflow.com/questions/69619035/error-with-permissions-policy-header-unrecognized-feature-interest-cohort) <br>
-  ![Lighthouse Warning](./assets/images/testing/lighthouse-mobile-index-warning.PNG)
+
+    ### Result - Pass
 
 - 404.html Mobile <br>
   ![Lighthouse Mobile](./assets/images/testing/lighthouse-404-mobile.PNG)
-   - Warning <br>
-  This warning appears due to the fact that GitHub hosted pages disable FLoC, which is Google's 3rd party cookie alternative. - Source [Stackoverflow](https://stackoverflow.com/questions/69619035/error-with-permissions-policy-header-unrecognized-feature-interest-cohort) <br>
-  ![Lighthouse Warning](./assets/images/testing/lighthouse-mobile-index-warning.PNG)
 
 - 404.html Desktop <br>
   ![Lighthouse Mobile](./assets/images/testing/lighthouse-404-desktop.PNG)
-   - Warning <br>
-  This warning appears due to the fact that GitHub hosted pages disable FLoC, which is Google's 3rd party cookie alternative. - Source [Stackoverflow](https://stackoverflow.com/questions/69619035/error-with-permissions-policy-header-unrecognized-feature-interest-cohort) <br>
-  ![Lighthouse Warning](./assets/images/testing/lighthouse-mobile-index-warning.PNG)
+
+- Warning <br>
+This warning appears due to the fact that GitHub hosted pages disable FLoC, which is Google's 3rd party cookie alternative. - Source [Stackoverflow](https://stackoverflow.com/questions/69619035/error-with-permissions-policy-header-unrecognized-feature-interest-cohort) and [GithubBlog](https://github.blog/changelog/2021-04-27-github-pages-permissions-policy-interest-cohort-header-added-to-all-pages-sites/) <br>
+![Lighthouse Warning](./assets/images/testing/lighthouse-mobile-index-warning.PNG)
+
+  ### Result - Pass
