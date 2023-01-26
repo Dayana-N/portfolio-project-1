@@ -26,13 +26,63 @@
 - index.htm <br>
 Document checking completed. No errors or warnings to show.
 ![HTML Validator](./assets/images/testing/html-validator.PNG)
-## Result - Pass
+### Result - Pass
 - thank-you.htm <br>
 Document checking completed. No errors or warnings to show.
 ![HTML Validator](./assets/images/testing/html-validator-thank-you.PNG)
-## Result - Pass
+### Result - Pass
 - 404.htm <br>
 Document checking completed. No errors or warnings to show.
 ![HTML Validator](./assets/images/testing/html-validator-404.PNG)
-## Result - Pass
+### Result - Pass
 ### The W3C CSS Validation Service
+- All pages besides 404.html <br>
+Congratulations! No Error Found.
+![CSS Validator](./assets/images/testing/css-validator-index.PNG)
+  - One warning found. 
+  ![CSS Warning](./assets/images/testing/css-warning.PNG)
+  This line of code was used to select and change the colour of the calendar picker icon in the date input field. This warning does not affect the performance of the element that it is connected to.
+### Result - Pass
+- 404 Page <br>
+Congratulations! No Error Found.
+![CSS Validator](./assets/images/testing/css-validator-404.PNG)
+Internal CSS was used on the 404.html page to prevent any potential errors.
+### Result - Pass
+### Google Lighthouse
+#### The Google Lighthouse test was performed in incognito mode to prevent any add-ons interfering with the results.
+- index.html Mobile <br>
+![Lighthouse Mobile](./assets/images/testing/lighthouse-mobile-index.PNG)
+   - Warning <br>
+  This warning appears due to the fact that GitHub hosted pages disable FLoC, which is Google's 3rd party cookie alternative. - Source [Stackoverflow](https://stackoverflow.com/questions/69619035/error-with-permissions-policy-header-unrecognized-feature-interest-cohort) <br>
+  ![Lighthouse Warning](./assets/images/testing/lighthouse-mobile-index-warning.PNG)
+
+- index.html Desktop <br>
+![Lighthouse Desktop](./assets/images/testing/lighthouse-desktop-index.PNG)
+   - Warning <br>
+  This warning appears due to the fact that GitHub hosted pages disable FLoC, which is Google's 3rd party cookie alternative. - Source [Stackoverflow](https://stackoverflow.com/questions/69619035/error-with-permissions-policy-header-unrecognized-feature-interest-cohort) <br>
+  ![Lighthouse Warning](./assets/images/testing/lighthouse-mobile-index-warning.PNG)
+  ### Result - Pass
+
+- thank-you.html Mobile <br>
+  ![Lighthouse Mobile](./assets/images/testing/lighthouse-thankyou-mobile.PNG)
+   - Warning <br>
+  This warning appears due to the fact that GitHub hosted pages disable FLoC, which is Google's 3rd party cookie alternative. - Source [Stackoverflow](https://stackoverflow.com/questions/69619035/error-with-permissions-policy-header-unrecognized-feature-interest-cohort) <br>
+  ![Lighthouse Warning](./assets/images/testing/lighthouse-mobile-index-warning.PNG)
+
+- thank-you.html Desktop <br>
+  ![Lighthouse Mobile](./assets/images/testing/lighthouse-thankyou-desktop.PNG)
+   - Warning <br>
+  This warning appears due to the fact that GitHub hosted pages disable FLoC, which is Google's 3rd party cookie alternative. - Source [Stackoverflow](https://stackoverflow.com/questions/69619035/error-with-permissions-policy-header-unrecognized-feature-interest-cohort) <br>
+  ![Lighthouse Warning](./assets/images/testing/lighthouse-mobile-index-warning.PNG)
+
+- 404.html Mobile <br>
+  ![Lighthouse Mobile](./assets/images/testing/lighthouse-404-mobile.PNG)
+   - Warning <br>
+  This warning appears due to the fact that GitHub hosted pages disable FLoC, which is Google's 3rd party cookie alternative. - Source [Stackoverflow](https://stackoverflow.com/questions/69619035/error-with-permissions-policy-header-unrecognized-feature-interest-cohort) <br>
+  ![Lighthouse Warning](./assets/images/testing/lighthouse-mobile-index-warning.PNG)
+
+- 404.html Desktop <br>
+  ![Lighthouse Mobile](./assets/images/testing/lighthouse-404-desktop.PNG)
+   - Warning <br>
+  This warning appears due to the fact that GitHub hosted pages disable FLoC, which is Google's 3rd party cookie alternative. - Source [Stackoverflow](https://stackoverflow.com/questions/69619035/error-with-permissions-policy-header-unrecognized-feature-interest-cohort) <br>
+  ![Lighthouse Warning](./assets/images/testing/lighthouse-mobile-index-warning.PNG)
