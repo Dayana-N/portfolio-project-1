@@ -21,3 +21,18 @@
 - The Book Now button on each card takes the user to the contact form, which they can fill in order to make booking. The buttons on the experience cards and the form change color increase size upon hover. The same red background was used to attract the attention of the user.
 ### As a returning user, I want to be find links to the company's social media.
 - The footer containes social media links which upon hover change color to blue and red. All external links open in new tab for better user experience.
+## Automated Testing
+### The W3C Markup Validation Service
+- index.htm <br>
+Document checking completed. No errors or warnings to show.
+![HTML Validator](./assets/images/testing/html-validator.PNG)
+## Result - Pass
+- thank-you.htm <br>
+Document checking completed. No errors or warnings to show.
+![HTML Validator](./assets/images/testing/html-validator-thank-you.PNG)
+## Result - Pass
+- 404.htm <br>
+Document checking completed. No errors or warnings to show.
+![HTML Validator](./assets/images/testing/html-validator-404.PNG)
+## Result - Pass
+### The W3C CSS Validation Service
