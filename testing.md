@@ -1,6 +1,18 @@
 # Supercar Experience Testing Documentation
 [Link to website](https://dayana-n.github.io/portfolio-project-1/index.html) <br>
 [Link to GitHub Repository](https://github.com/Dayana-N/portfolio-project-1)
+
+## Contents
+* [User Story Testing](#user-story-testing)
+* [Automated Testing](#automated-testing)
+  * [The W3C Markup Validation Service](#the-w3c-markup-validation-service)
+  * [The W3C CSS Validation Service](#the-w3c-css-validation-service)
+  * [Google Lighthouse](#google-lighthouse)
+* [Manual Testing](#manual-testing)
+  * [Features Testing](#features-testing)
+  * [Browser Testing](#browser-testing)
+  * [Responsiveness Testing ](#responsiveness-testing)
+  
 ## User Story Testing
 ### As a first time user, I want to easily understand the main purpose of the website and learn more about the business.
 - The home section of the website presents the user with the strong and colorful image in the hero section. This image was carefully selected with the idea to represent to the user the feeling of adrenalin that comes with such an experience.
@@ -36,6 +48,7 @@ Document checking completed. No errors or warnings to show.
 Document checking completed. No errors or warnings to show.
 ![HTML Validator](./assets/images/testing/html-validator-404.PNG)
 ### Result - Pass
+
 ### The W3C CSS Validation Service
 - All pages besides 404.html <br>
 Congratulations! No Error Found.
@@ -98,3 +111,19 @@ Each page and features were tested on three browsers Google Chrome, Firefox and 
 ### Responsiveness Testing
 Each page was tested using Developer Tools in Google Chrome Browser. <br>
 ![Responsiveness Test](./assets/images/testing/responsiveness-test.PNG)
+
+- Samsung Galaxy S20 Ultra 412x915
+  - Index page <br>
+  ![Index Page 412x915](./assets/images/testing/index-samsungs20.PNG)
+  - Thank you page <br>
+  ![Thank You Page 412x915](./assets/images/testing/thankyou-s20.PNG)
+  - 404 page <br>
+  ![404 Page 412x915](./assets/images/testing/404-s20.PNG)
+
+-iPad Air 820x1180 
+ - index Page <br>
+ ![Index Page 820x1180](./assets/images/testing/index-ipadair.PNG)
+ -Thank you page <br>
+ ![Thank you Page 820x1180](./assets/images/testing/thankyou-ipadair.PNG)
+ - 404 page <br>
+ ![404 Page 820x1180](./assets/images/testing/404-ipadair.PNG)
