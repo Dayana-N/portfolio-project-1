@@ -21,6 +21,7 @@
 - The Book Now button on each card takes the user to the contact form, which they can fill in order to make booking. The buttons on the experience cards and the form change color increase size upon hover. The same red background was used to attract the attention of the user.
 ### As a returning user, I want to be find links to the company's social media.
 - The footer containes social media links which upon hover change color to blue and red. All external links open in new tab for better user experience.
+
 ## Automated Testing
 ### The W3C Markup Validation Service
 - index.htm <br>
@@ -39,7 +40,6 @@ Document checking completed. No errors or warnings to show.
 - All pages besides 404.html <br>
 Congratulations! No Error Found.
 ![CSS Validator](./assets/images/testing/css-validator-index.PNG)
-
   - One warning found. 
   ![CSS Warning](./assets/images/testing/css-warning.PNG) <br>
   This line of code was used to select and change the colour of the calendar picker icon in the date input field. This warning does not affect the performance of the element that it is connected to.
@@ -64,7 +64,7 @@ Internal CSS was used on the 404.html page to prevent any potential errors.
   ![Lighthouse Mobile](./assets/images/testing/lighthouse-thankyou-mobile.PNG)
 
 - thank-you.html Desktop <br>
-  ![Lighthouse Mobile](./assets/images/testing/lighthouse-thankyou-desktop.PNG)
+  ![Lighthouse Desktop](./assets/images/testing/lighthouse-thankyou-desktop.PNG)
 
     ### Result - Pass
 
@@ -72,10 +72,29 @@ Internal CSS was used on the 404.html page to prevent any potential errors.
   ![Lighthouse Mobile](./assets/images/testing/lighthouse-404-mobile.PNG)
 
 - 404.html Desktop <br>
-  ![Lighthouse Mobile](./assets/images/testing/lighthouse-404-desktop.PNG)
+  ![Lighthouse Desktop](./assets/images/testing/lighthouse-404-desktop.PNG)
 
 - Warning on all pages<br>
 This warning appears due to the fact that GitHub hosted pages disable FLoC, which is Google's 3rd party cookie alternative. - Source [Stackoverflow](https://stackoverflow.com/questions/69619035/error-with-permissions-policy-header-unrecognized-feature-interest-cohort) and [GithubBlog](https://github.blog/changelog/2021-04-27-github-pages-permissions-policy-interest-cohort-header-added-to-all-pages-sites/) <br>
 ![Lighthouse Warning](./assets/images/testing/lighthouse-mobile-index-warning.PNG)
 
   ### Result - Pass
+
+## Manual Testing 
+### Features Testing
+- Index Page Features <br>
+![Index Feature Test](./assets/images/testing/index-feature-test.PNG)
+
+- Thank You Page Features <br>
+  ![Thank you Feature Test](./assets/images/testing/thankyou-feature-test.PNG)
+
+- 404 Page Features <br>
+  ![404 Feature Test](./assets/images/testing/404-feature-test.PNG)
+
+### Browser Testing
+Each page and features were tested on three browsers Google Chrome, Firefox and Microsoft Edge <br>
+![Browser Test](./assets/images/testing/browser-test.PNG)
+
+### Responsiveness Testing
+Each page was tested using Developer Tools in Google Chrome Browser. <br>
+![Responsiveness Test](./assets/images/testing/responsiveness-test.PNG)
