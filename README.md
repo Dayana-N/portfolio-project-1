@@ -2,7 +2,7 @@
 ## Supercar Driving Experience
 This project was created as a school project for [Code Institute](https://codeinstitute.net/ie/). The inspiration for this website came from a business who offers supercar driving experiences. Please note that this project is not for a real company, however was inspired by one. The website main goals are to promote their business to potential customers by displaying information about the company and experiences available. 
 
-[Live Project Here]()
+[Live Project Here](https://dayana-n.github.io/portfolio-project-1/index.html)
 
 ![Responsive Mockup](./assets/images/readme-images/responsive.PNG)
 ## User Experience
@@ -48,3 +48,6 @@ The experiences section was also designed visually in Photoshop first with impro
 #### Footer
 Mockup of the Footer.
 ![Footer mock up design](./assets/images/readme-images/footer-mockup.PNG)
+
+## Features
+### Header

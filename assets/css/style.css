@@ -643,6 +643,15 @@ small a {
     .circuit-text h2 {
         font-size: 4vw;
     }
+
+    /* Footer */
+    .footer-contact {
+        padding-left: 10px;
+    }
+
+    .footer-map {
+        padding-right: 10px;
+    }
 }
 
 /* For screens with width less than 740px */
@@ -686,14 +695,12 @@ small a {
 
     .footer-contact {
         margin: 30px;
+        padding-left: 0;
+        order: 1;
     }
 
     .logo-container img {
         margin-top: 20px;
-    }
-
-    .footer-contact {
-        order: 1;
     }
 
     .footer-social {
@@ -702,6 +709,7 @@ small a {
 
     .footer-map {
         order: 2;
+        padding-right: 0;
     }
 }
 
