@@ -130,3 +130,9 @@ Each page was tested using Developer Tools in Google Chrome Browser. <br>
  ![404 Page 820x1180](./assets/images/testing/404-ipadair.PNG)
 
  ## Bugs
+ - There was a bug in the experiences section. When hover over the cards, border and shadow appeared, however this extended the size of the other cards and made the next section move. I tried adding margin but this did not resolve the issue. I isolated the issue to the border appearing on hover and making the other elements change size. The solution was to add transparent border to all cards so when the user hovers over the card the border changes colour to white without affecting the other elements. 
+ - The footer was made responsive, however during testing was discovered that for tablet size the content was missing margin on the sides. 10px margin was added to left and right to resolve the issue
+ - Another bug was discovered when changing the colour of the form and more specifically the calendar picker icon in the date input, which did not change colour. Upon research I found a solution on stackoverflow how to target this specific element and change colour. Link is provided in the credits section. 
+ - During early stages of testing, before the site was made fully responsive, empty space appeared on the right side of the page on smaller screens. Using media queries I started working on each section to make it responsive starting from the top. The issue was isolated to an image overflowing and causing the issue. Once all sections were made responsive the issue disappeared. 
+ - A bug was noticed when the header was fixed to the top. When scrolling to each section the header was covering the beginning of the sections. This was resolved by adding scroll-padding-top: 40px;
+ - The header was covering parts of the footer and this was resolved by adding z-index: 1 to the header to ensure the content always displays on top.
