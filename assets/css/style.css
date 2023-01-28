@@ -5,7 +5,6 @@ html {
     scroll-padding-top: 40px;
 }
 
-
 body {
     margin: 0;
     padding: 0;
@@ -21,9 +20,7 @@ h2 {
     letter-spacing: 2px;
 }
 
-
 /* Style the header */
-
 header {
     background-color: rgba(0, 0, 0, 0.881);
     display: flex;
@@ -77,7 +74,6 @@ li a {
 }
 
 /* Hero section */
-
 .hero-image {
     background-image: url('../images/hero-image.webp');
     height: 600px;
@@ -110,7 +106,6 @@ li a {
 }
 
 /* About section */
-
 .about-section {
     background-color: black;
     height: auto;
@@ -150,9 +145,7 @@ li a {
     text-align: center;
 }
 
-
 /* The Circuit section */
-
 .circuit-background {
     background-image: url('../images/racetrack.webp');
     height: 700px;
@@ -165,8 +158,6 @@ li a {
     background-attachment: fixed;
 }
 
-
-
 .circuit-container {
     width: 70%;
     background-color: rgba(0, 0, 0, 0.555);
@@ -175,14 +166,12 @@ li a {
     align-items: center;
     justify-content: center;
     padding: 30px 0 50px 0;
-    ;
 }
 
 .circuit-text {
     width: 33%;
     text-align: center;
     margin-right: 60px;
-
 }
 
 .circuit-img {
@@ -200,7 +189,6 @@ li a {
 }
 
 /* Experiences section */
-
 .exp-section {
     display: flex;
     flex-direction: column;
@@ -222,7 +210,6 @@ li a {
 }
 
 /* Car card */
-
 .car-card {
     width: 320px;
     background-color: rgba(50, 49, 49, 0.76);
@@ -231,6 +218,8 @@ li a {
     flex-direction: column;
     align-items: center;
     margin: 20px;
+    border: solid 1px transparent;
+    transition: 0.4s ease-in;
 }
 
 .car-card:hover {
@@ -300,18 +289,17 @@ li a {
     border-radius: 15px;
     font-weight: 600;
     margin: 20px 0;
+    transition: 0.3s;
 }
 
 /* Button hover effect */
 .btn-book:hover {
     background-color: #f13f4a;
-    color: azure;
+    color: #f0ffff;
     transform: scale(1.1);
-    transition: 0.3s;
 }
 
 /* Contact section */
-
 .contact-img {
     background-image: url(../images/three-cars.webp);
     width: 100%;
@@ -331,7 +319,6 @@ li a {
 }
 
 /* Form */
-
 .form-input {
     background: transparent;
     border: 1px solid azure;
@@ -366,6 +353,7 @@ p {
     border: none;
     border-radius: 15px;
     padding: 10px;
+    transition: 0.3s;
 }
 
 #submit-btn:hover {
@@ -436,7 +424,6 @@ footer {
 }
 
 /* Partners section */
-
 .footer-partners {
     width: 100%;
     display: flex;
@@ -495,7 +482,6 @@ small a {
 }
 
 /* Thank you page */
-
 .thank-you-section {
     display: flex;
     align-items: center;
@@ -523,7 +509,6 @@ small a {
     flex-direction: column;
     align-items: center;
     box-shadow: 8px 8px 20px 1px hsl(356deg 41% 95% / 50%);
-   
 }
 
 #container h1 {
@@ -552,7 +537,6 @@ small a {
     background-color: #f13f4a;
     display: inline-block;
     transform: scale(1.1);
-
 }
 
 /* Media queries  */
@@ -622,7 +606,6 @@ small a {
     }
 
     /* Circuit */
-
     .circuit-container {
         flex-direction: column;
         justify-content: center;
@@ -713,17 +696,15 @@ small a {
     }
 }
 
-
 /* For screens with width less than 600px */
 @media (max-width: 600px) {
-    /* Hero Section */
 
+    /* Hero Section */
     .hero-image {
         height: 320px;
     }
 
     /* Form */
-
     .contact-img {
         background-position: right;
     }
@@ -738,7 +719,6 @@ small a {
 }
 
 /* For screen with width under 420px */
-
 @media (max-width: 420px) {
     nav li a {
         font-size: 13px;
