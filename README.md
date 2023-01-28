@@ -75,11 +75,16 @@ The experiences section clearly presents the available options to the user. Each
 ![Experiences Section](./assets/images/features/experiences-features.PNG)
 
 ### Contact Section 
-The contact section gives the user the opportunity to contact the business and enquire about bookings.
+The contact section gives the user the opportunity to contact the business and enquire about bookings. The form consist of different input elements some of which are required. This is clearly presented to the user by adding the * symbol on the required fields for better user experience. The button Submit on hover changes colour and increases size. On click takes the user to the thank you page.<br>
 ![Contact Section](./assets/images/features/contact-features.PNG)
 
 ### Footer
-
+- The partners section consist of png images of the partner companies. On hover the images become colourful and the mouse turns into pointer. On click each partner image opens the link to the official website in new tab.
+- Contact section provides clear contact information to the user. 
+- The social media section consist of social media icons which on hover become colourful and the mouse turns into pointer. On click the social media links will open in new tab 
+- The map section was added to help the user find the location of the business quicker without leaving the website.
+- Copyright section, when clicked on the name of the student a link to LinkedIn opens in new tab. <br>
+![Footer Section](./assets/images/features/footer-features.PNG)
 
 ## Testing
 Testing documentation can be found under [Testing.md](testing.md)
