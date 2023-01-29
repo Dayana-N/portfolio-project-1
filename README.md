@@ -147,7 +147,16 @@ Testing documentation can be found under [Testing.md](testing.md)
 2. Click on the Code button on top of the repository and copy the link. 
 3. Open Git Bash and change the working directory to the location where you want the cloned directory. 
 4. type git clone and then paste the link.
-5. Press Enter to create your local clone. 
+5. Press Enter to create your local clone.
 
 ## Credits
 ### Media 
+- Hero Image - [Pinimg](https://i.pinimg.com/originals/f8/b8/c5/f8b8c5dfd9192e5f6bcb1ed29130a743.jpg)
+- About section image - [Wallpapercave](https://wallpapercave.com/w/wp1822370)
+- Circuit Section background - [Pixabay](https://pixabay.com/photos/tire-asphalt-road-abrasion-7512549/)
+- Circuit section track - [Pngkey](https://www.pngkey.com/maxpic/u2e6i1o0r5y3t4q8/)
+- Ferrari Daytona - [Manofmany](https://manofmany.com/wp-content/uploads/2022/08/Ferrari-Daytona-SP3-d-1200x900.jpg)
+- McLaren 650S - [Supercars](https://www.supercars.net/blog/wp-content/uploads/2020/07/2015-McLaren-650S-001-1080.jpg)
+- Bugatti Chiron - [wsj](https://www.wsj.com/articles/bugatti-chiron-pur-sport-an-immodestly-fast-ride-11618574436)
+- Contact us background - [pixabay](https://pixabay.com/photos/cars-bugatti-chiron-chevrolet-3954498/)
+- Partner logos - [logos-download](https://logos-download.com/)
