@@ -27,9 +27,9 @@ This project was created as a school project for [Code Institute](https://codein
   - [Cloning Repository](#cloning-repository)
 - [Credits](#credits)
   - [Media](#media)
-  - [Code]()
-  - [Acknowledgements]()
-  - [Comments]()
+  - [Code](#code)
+  - [Acknowledgements](#acknowledgements)
+  - [Comments](#comments)
 
 
 ## User Experience
@@ -78,6 +78,7 @@ Mockup of the Footer.
 
 ## Features
 ## Index Page
+The Index page was designed as a scroll page with parallax effect.
 ### Header
 The header consist of two main elements, the logo on the left and the navigation bar on the right. When clicked the logo on the left takes the user to the home page.
 The navigation bar consist of links to each section of the index page. On hover, each link changes colour to red and underline appears. On click each link takes the user to the relevant section. Smooth scroll was added for better visual experience. The header is fixed to the top of the screen to ensure that the user can easily navigate through the sections at any time. 
@@ -199,4 +200,5 @@ Enjoy a one-on-one experience in the car of your dreams." was taken from [here](
 - The Slack Community for their support
 
 ### Comments
-I really enjoyed creating this project and I learned a lot along the way. One of my biggest lessons was in future to create the website for mobile first to reduce the amount of media queries required. 
+I really enjoyed creating this project and I learned a lot along the way. One of my biggest lessons was in future to create the website for mobile first to reduce the amount of media queries required. <br>
+The styling on the 404 page was originally internal, however after discussing it with my mentor it made sense to include the styling in the style.css file and link it to the page.

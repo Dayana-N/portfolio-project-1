@@ -40,30 +40,25 @@
 - index.htm <br>
 Document checking completed. No errors or warnings to show.
 ![HTML Validator](./assets/images/testing/html-validator.PNG)
-### Result - Pass
+#### Result - Pass
 - thank-you.htm <br>
 Document checking completed. No errors or warnings to show.
 ![HTML Validator](./assets/images/testing/html-validator-thank-you.PNG)
-### Result - Pass
+#### Result - Pass
 - 404.htm <br>
 Document checking completed. No errors or warnings to show.
 ![HTML Validator](./assets/images/testing/html-validator-404.PNG)
-### Result - Pass
+#### Result - Pass
 
 ### The W3C CSS Validation Service
-- All pages besides 404.html <br>
+- All pages <br>
 Congratulations! No Error Found.
 ![CSS Validator](./assets/images/testing/css-validator-index.PNG)
   - One warning found. 
   ![CSS Warning](./assets/images/testing/css-warning.PNG) <br>
   This line of code was used to select and change the colour of the calendar picker icon in the date input field. This warning does not affect the performance of the element that it is connected to.
-### Result - Pass
-- 404 Page <br>
-Congratulations! No Error Found.
-![CSS Validator](./assets/images/testing/css-validator-404.PNG)
+   #### Result - Pass
 
-Internal CSS was used on the 404.html page to prevent any potential errors.
-### Result - Pass
 ### Google Lighthouse
 #### The Google Lighthouse test was performed in incognito mode to prevent any add-ons interfering with the results.
 - index.html Mobile <br>
@@ -72,7 +67,7 @@ Internal CSS was used on the 404.html page to prevent any potential errors.
 - index.html Desktop <br>
 ![Lighthouse Desktop](./assets/images/testing/lighthouse-desktop-index.PNG)
 
-  ### Result - Pass
+  #### Result - Pass
 
 - thank-you.html Mobile <br>
   ![Lighthouse Mobile](./assets/images/testing/lighthouse-thankyou-mobile.PNG)
@@ -80,7 +75,7 @@ Internal CSS was used on the 404.html page to prevent any potential errors.
 - thank-you.html Desktop <br>
   ![Lighthouse Desktop](./assets/images/testing/lighthouse-thankyou-desktop.PNG)
 
-    ### Result - Pass
+    #### Result - Pass
 
 - 404.html Mobile <br>
   ![Lighthouse Mobile](./assets/images/testing/lighthouse-404-mobile.PNG)
@@ -92,7 +87,7 @@ Internal CSS was used on the 404.html page to prevent any potential errors.
 This warning appears due to the fact that GitHub hosted pages disable FLoC, which is Google's 3rd party cookie alternative. - Source [Stackoverflow](https://stackoverflow.com/questions/69619035/error-with-permissions-policy-header-unrecognized-feature-interest-cohort) and [GithubBlog](https://github.blog/changelog/2021-04-27-github-pages-permissions-policy-interest-cohort-header-added-to-all-pages-sites/) <br>
 ![Lighthouse Warning](./assets/images/testing/lighthouse-mobile-index-warning.PNG)
 
-  ### Result - Pass
+  #### Result - Pass
 
 ## Manual Testing 
 ### Features Testing
@@ -136,3 +131,4 @@ Each page was tested using Developer Tools in Google Chrome Browser. <br>
  - During early stages of testing, before the site was made fully responsive, empty space appeared on the right side of the page on smaller screens. Using media queries I started working on each section to make it responsive starting from the top. The issue was isolated to an image overflowing and causing the issue. Once all sections were made responsive the issue disappeared. 
  - A bug was noticed when the header was fixed to the top. When scrolling to each section the header was covering the beginning of the sections. This was resolved by adding scroll-padding-top: 40px;
  - The header was covering parts of the footer and this was resolved by adding z-index: 1 to the header to ensure the content always displays on top.
+ - The images used were first compressed using photoshop, however the performance of the website was still affected during the lighthouse test. The images were then further compressed by converting them to webp format. This brought the performance numbers higher. 
