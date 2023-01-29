@@ -132,3 +132,4 @@ Each page was tested using Developer Tools in Google Chrome Browser. <br>
  - A bug was noticed when the header was fixed to the top. When scrolling to each section the header was covering the beginning of the sections. This was resolved by adding scroll-padding-top: 40px;
  - The header was covering parts of the footer and this was resolved by adding z-index: 1 to the header to ensure the content always displays on top.
  - The images used were first compressed using photoshop, however the performance of the website was still affected during the lighthouse test. The images were then further compressed by converting them to webp format. This brought the performance numbers higher. 
+ - The partner logos in the footer were not centered on smaller screens. They were set to flex wrap with justify-content: space-between which set them to align to left when wrapped. To resolve this justify-content was set to space-around so when wrapped they would display center. 

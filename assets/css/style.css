@@ -332,7 +332,7 @@ p {
     border-radius: 5px;
     margin: 10px 0;
     display: inline-block;
-    width: 60%;
+    width: 146px;
 }
 
 #license-fieldset {
@@ -439,11 +439,12 @@ footer {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .logo-container img {
     filter: grayscale(100%);
+    margin: 20px 10px 0 10px;
 }
 
 .logo-container img:hover {
@@ -661,6 +662,11 @@ small a {
         font-size: 4vw;
     }
 
+    /* Contact */
+    .contact-img {
+        background-position: right;
+    }
+
     /* Footer */
     .footer-contact {
         padding-left: 10px;
@@ -716,10 +722,6 @@ small a {
         order: 1;
     }
 
-    .logo-container img {
-        margin-top: 20px;
-    }
-
     .footer-social {
         order: 3;
     }
@@ -739,10 +741,6 @@ small a {
     }
 
     /* Contact Section */
-    .contact-img {
-        background-position: right;
-    }
-
     .form-div {
         width: 90%;
         margin-left: 13px;
