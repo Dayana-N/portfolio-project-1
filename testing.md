@@ -32,8 +32,8 @@
 - Each card in the experiences section clearly states the starting price for each experience. This is displayed on red background to attract the attention of the user.
 ### As a returning user, I want to be able to contact and/or book experience.
 - The Book Now button on each card takes the user to the contact form, where the user can fill in the required input fields in order to make booking. The buttons on the experience cards and the form, change color and increase size upon hover. The same red background was used to attract the attention of the user.
-### As a returning user, I want to be find links to the company's social media.
-- The footer contains social media links which upon hover change color. All external links open in new tab for better user experience.
+### As a returning user, I want to be able to find the company's social media pages.
+- The footer contains icons linked to social media pages which upon hover change color. All external links open in new tab for better user experience.
 
 ## Automated Testing
 ### The W3C Markup Validation Service
